@@ -1,4 +1,16 @@
-.App {
-  text-align: center;
-  color: blue;
+#body {
+  display: flex;
+  background-color: cadetblue;
+}
+.App p {
+  color: rgb(117, 116, 116);
+  border-width: 80px;
+}
+.App p::after,
+.App p:hover {
+  color: black;
+}
+.App1 {
+  border-bottom-width: 10px;
+  border-bottom-color: red;
 }
