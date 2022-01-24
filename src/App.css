@@ -1,16 +1,20 @@
-#body {
-  display: flex;
-  background-color: cadetblue;
-}
-.App p {
+/* .App p {
   color: rgb(117, 116, 116);
-  border-width: 80px;
+  border-bottom-width: 10px;
+  border-bottom-color: white;
+  margin-top: 16px;
 }
 .App p::after,
 .App p:hover {
   color: black;
+  border-bottom-width: 4px;
+  border-bottom-color:#37BBEC;
+} */
+.center div::after,
+.center div:hover {
+  background-color: blueviolet;
 }
-.App1 {
-  border-bottom-width: 10px;
-  border-bottom-color: red;
+
+.text {
+  font-size: 30px;
 }

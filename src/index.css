@@ -1,13 +1,49 @@
+/* import "./tailwind.css"; */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif, "IRANYekanMobileBlack", "IRANYekanMobileBold",
+    "IRANYekanMobileExtraBlack", "IRANYekanMobileExtraBold",
+    "IRANYekanMobileLight", "IRANYekanMobileMedium", "IRANYekanMobileRegular",
+    "IRANYekanMobileThin";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+@font-face {
+  font-family: IRANYekanMobileBlack;
+  src: local("IRANYekanMobileBlack");
+}
+@font-face {
+  font-family: IRANYekanMobileBold;
+  src: local("IRANYekanMobileBold");
+}
+@font-face {
+  font-family: IRANYekanMobileExtraBlack;
+  src: local("IRANYekanMobileExtraBlack");
+}
+@font-face {
+  font-family: IRANYekanMobileExtraBold;
+  src: local("IRANYekanMobileExtraBold");
+}
+@font-face {
+  font-family: IRANYekanMobileLight;
+  src: local("IRANYekanMobileLight");
+}
+@font-face {
+  font-family: IRANYekanMobileMedium;
+  src: local("IRANYekanMobileMedium");
+}
+@font-face {
+  font-family: IRANYekanMobileRegular;
+  src: local("IRANYekanMobileRegular");
+}
+@font-face {
+  font-family: IRANYekanMobileThin;
+  src: local("IRANYekanMobileThin");
 }
