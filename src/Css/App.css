@@ -10,11 +10,3 @@
   border-bottom-width: 4px;
   border-bottom-color:#37BBEC;
 } */
-.center div::after,
-.center div:hover {
-  background-color: blueviolet;
-}
-
-.text {
-  font-size: 30px;
-}
