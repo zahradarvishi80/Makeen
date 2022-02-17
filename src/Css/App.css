@@ -10,3 +10,32 @@
   border-bottom-width: 4px;
   border-bottom-color:#37BBEC;
 } */
+#hover {
+  background-color: white;
+}
+#hover::after,
+#hover:hover {
+  background-color: red;
+}
+
+.font {
+  font-family: Bold;
+}
+#font {
+  font-family: Bold;
+}
+#fonts {
+  font-family: "Medium";
+}
+#Number {
+  font-family: "Medium";
+}
+#ExtraBold {
+  font-family: "ExtraBold";
+}
+#Bold {
+  font-family: "Bold";
+}
+#bold {
+  font-family: "Bold";
+}
