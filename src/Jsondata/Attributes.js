@@ -6,7 +6,7 @@ import Icon5 from "../assets/img/Group 31.png";
 import Icon6 from "../assets/img/Group 32.png";
 const Attributes = [
   {
-    hover: "light-blue",
+    hover: "bg-red-500",
     startColor: "#DAF2FB",
     endColor: "#ECF9FD",
     icon: Icon1,
@@ -16,7 +16,7 @@ const Attributes = [
   },
 
   {
-    hover: "orange",
+    hover: "bg-blue-200",
     startColor: "#FFD7C0",
     endColor: "#FFF2EA",
     icon: Icon2,
@@ -25,7 +25,7 @@ const Attributes = [
       "کارآموزهایی که در این دوره شرکت میکنن تمام هزینه ها را به صورت قسطی توی 20 ماه پرداخت میکنند، این خودش یه مزیته که هر کسی که مستعده، بتونه بهره ببره",
   },
   {
-    hover: "blue",
+    hover: "bg-blue-500",
     startColor: "#CCD4DB",
     endColor: "#E6EAED",
     icon: Icon3,
@@ -34,7 +34,7 @@ const Attributes = [
       "در این بوت کمپ چیزهایی آموزش داده میشه که واقعا به درد بازار کار میخوره و واقعا نیاز داره، شما بعد از این دوره میتونی خودتو یه جونیور بدونی",
   },
   {
-    hover: "blue",
+    hover: "bg-orange-600",
     startColor: "#CCD4DB",
     endColor: "#E6EAED",
     icon: Icon4,
@@ -43,7 +43,7 @@ const Attributes = [
       "در طی این دوره، کارگاه های متنوعی خواهید داشت. کارگاه های رزومه نویسی، حضور در جلسه مصاحبه، فرهنگ سازمانی و کارگاه های انتقال تجربه، که از شما یه حرفه ای میسازه",
   },
   {
-    hover: "orange",
+    hover: "bg-orange-500",
     startColor: "#DAF2FB",
     endColor: "#ECF9FD",
     icon: Icon5,
@@ -52,7 +52,7 @@ const Attributes = [
       "اینکه 70% هزینه رو بعد از استخدام بعد از پایان دوره، به صورت قسطی از حقوقت توی یکسال پس میدی واین بهترین .تضمین برای اینکه ثابت کنه روش ما جواب میده",
   },
   {
-    hover: "orange",
+    hover: "bg-orange-100",
     startColor: "#FFD7C0",
     endColor: "#FFF2EA",
     icon: Icon6,
@@ -62,7 +62,6 @@ const Attributes = [
   },
 ];
 export default Attributes;
-
 
 // <div className="w-[100%] h-[100%] bg-[#001D36] flex-col rounded-md grid md:grid-cols-2 lg:grid-cols-3  lg:justify-between lg:justify-items-center">
 // {doreha.map((item) => {

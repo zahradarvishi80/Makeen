@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./Css/index.css";
-import App from "./App";
+// import Home from "./Home";
 import "./Css/tailwind.css";
 import "./assets/fonts/Blacck.ttf";
 import "./assets/fonts/Bold.ttf";
@@ -11,9 +11,13 @@ import "./assets/fonts/Light.ttf";
 import "./assets/fonts/Medium.ttf";
 import "./assets/fonts/Regular.ttf";
 import "./assets/fonts/Thin.ttf";
+
+import { BrowserRouter } from "react-router-dom";
+// import Home from "./Home";
+import App from "./App";
 ReactDOM.render(
-  <React.StrictMode>
+  <BrowserRouter>
     <App />
-  </React.StrictMode>,
+  </BrowserRouter>,
   document.getElementById("root")
 );

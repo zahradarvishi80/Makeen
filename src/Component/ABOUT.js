@@ -1,13 +1,21 @@
 import React from "react";
-import images from "../assets/img/IMG 1.jpg";
-import image from "../assets/img/IMG 2.jpg";
+// import images from "../assets/img/IMG 1.jpg";
+import Student from "../assets/img/StudentMakeen.png";
 import circle from "../assets/img/Group 44.png";
+// import backGround from "../assets/img/Image.png";
+import MakeenStudent from "../assets/img/MakeenStudent.png";
+import Circlebig from "../assets/img/139.png";
+import Circle from "../assets/img/140.png";
 import Arrow1 from "../assets/img/Arro1.png";
+import { Routes, Route, Link } from "react-router-dom";
 export default function ABOUT() {
   return (
-    <div className="flex w-[100%] mt-10 h-[300px] flex-row">
+    <div className="flex w-[100%] mt-52 h-[300px] flex-row">
       <div className="w-[50%] h-[300px] flex flex-col">
-        <p style={{ fontFamily: "ExtraBold" }}>چرا بوت کمپ مکین؟</p>
+     
+        <p style={{ fontFamily: "ExtraBold", position: "absolute" }}>
+          چرا بوت کمپ مکین؟
+        </p>
         <div className="w-[90%] h-[230px] justify-center justify-items-center flex-col">
           <p style={{ fontFamily: "Bold", marginTop: 30 }}>
             بوت کمپ مکین حدود 10 ساله که در حال پرورش نیروهای متخصص و آماده به
@@ -41,34 +49,41 @@ export default function ABOUT() {
       </div>
       <div className="flex w-[50%] h-[300px]">
         <img
-          src={image}
-          alt="image"
+          src={Circlebig}
           style={{
-            position: "absolute",
-            width: 270,
-            height: 300,
-            marginRight: 80,
+            width: 250,
+            height: 250,
+            marginRight: 180,
+            // margin:150,
+            borderRadius: 250,
           }}
         />
         <img
-          src={circle}
+          src={Student}
           style={{
-            width: 300,
+            position: "absolute",
+            marginRight: 40,
+            width: 250,
             height: 300,
-            // justifyContent: "flex-end",
-            // alignItems: "flex-end",
-            marginRight: 250,
           }}
         />
         <img
-          src={images}
-          alt="images"
+          src={MakeenStudent}
           style={{
-            width: 200,
-            height: 300,
             position: "absolute",
-            marginRight: 250,
-            marginTop: 120,
+            marginRight: 200,
+            width: 230,
+            height: 270,
+            marginTop: 130,
+          }}
+        />
+        <img
+          src={Circle}
+          style={{
+            width: 100,
+            height: 100,
+            marginRight: -290,
+            marginTop: 250,
           }}
         />
       </div>

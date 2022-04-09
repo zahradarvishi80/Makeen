@@ -1,7 +1,7 @@
 import PHP from "../assets/img/PHP.png";
 import Net from "../assets/img/Net.png";
 import Vue from "../assets/img/Vue.js.png";
-import React from "../assets/img/React.png";
+// import React from "../assets/img/React.png";
 import UIUX from "../assets/img/UIUX.png";
 import Python from "../assets/img/Python.png";
 const doreha = [
@@ -16,7 +16,7 @@ const doreha = [
     fontC: "#363839",
   },
   {
-    img: React,
+    // img: React,
     title: "React دوره",
     describe:
       "اگردوست داری برنامه نویس بشی و ذوق هنری هم داری این دوره رو از دست نده",

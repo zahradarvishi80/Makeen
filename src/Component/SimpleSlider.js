@@ -9,7 +9,8 @@ export default function SimpleSlider() {
     speed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplaySpeed: true,
+    // autoplaySpeed: true,
+    // autoplay: true,
     rtl: true,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
@@ -20,18 +21,18 @@ export default function SimpleSlider() {
         <Slider {...settings}>
           <img
             alt="Student Makeen"
-            class="w-[100%] rounded-2xl mt-10 "
+            class="w-[100%] rounded-2xl "
             src="https://makeen.ir/images/Slider/e7f2a769-02ab-4134-9b31-15b94fc9e8da-%D8%AF%D8%B1%206%20%D9%85%D8%A7%D9%87(1).jpg"
           ></img>
 
           <img
             alt="Makeen"
-            class="w-[100%] rounded-2xl mt-10 h-4/5"
+            class="w-[100%] rounded-2xl h-4/5"
             src="https://makeen.ir/images/Slider/74d7ebae-ec02-4961-9205-8fff3a3c9300-%D9%85%DA%A9%DB%8C%D9%86%DB%8C%20%D8%B4%D9%88(1).jpg"
           ></img>
 
           <img
-            class="w-[100%] rounded-2xl mt-10"
+            class="w-[100%] rounded-2xl"
             alt="Makeen"
             src="https://makeen.ir/images/Slider/82e15b71-7468-429b-8467-7a209962319f-%D9%85%D8%A7%20%D8%A8%D9%87%D8%AA%20%DB%8C%D8%A7%D8%AF%20%D9%85%DB%8C%D8%AF%DB%8C%D9%85(1).jpg"
           ></img>

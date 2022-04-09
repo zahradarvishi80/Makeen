@@ -5,16 +5,16 @@ import Icon from "../assets/Svg/Arrow1.svg";
 // import Icon from "../assets/img/Flesh.jpg";
 const Doreha = () => {
   return (
-    <div className="flex flex-col">
-      <div className="flex w-[100%] h-[150px] bg-[#001D36] flex-row">
+    <div className="flex flex-col mt-40">
+      <div className="flex w-[100%] h-[170px] bg-[#001D36] flex-row">
         {/*  */}
         <div className="flex flex-col w-[50%] justify-start">
           <p
             style={{
               fontFamily: "ExtraBold",
               color: "white",
-              marginLeft: 270,
-              marginTop: 10,
+              marginRight: 100,
+              marginTop: 50,
             }}
           >
             دوره های بوت کمپ مکین
@@ -23,7 +23,7 @@ const Doreha = () => {
             style={{
               fontFamily: "Bold",
               color: "white",
-              marginLeft: 100,
+              // marginRight: 10,
               marginTop: 30,
             }}
           >
@@ -43,7 +43,7 @@ const Doreha = () => {
           </p>
           {/* <img src={Arro} width={200} height={-5} /> */}
           {/* <Icon width={50} /> */}
-          <img src={Icon} width={120} style={{ marginBottom: 30 }} />
+          <img src={Icon} width={100} style={{ marginBottom: 70 }} />
           <button
             style={{
               fontFamily: "Bold",
@@ -56,10 +56,10 @@ const Doreha = () => {
           </button>
         </div>
       </div>
-      <div className="flex w-[100%]  h-[250px] bg-[#001D36] flex-row justify-between">
+      <div className="flex w-[100%]  h-[250px] bg-[#001D36] flex-row justify-around">
         {doreha.map((item) => {
           return (
-            <div className="flex w-[13%] h-[100%] bg-white rounded-md flex-col transition hover:-translate-y-1 hover:scale-110  duration-600 justify-items-start">
+            <div className="flex parent w-[13%] h-[94%] mt-3 bg-white rounded-md flex-col transition hover:-translate-y-1 hover:scale-110  duration-600 justify-items-start">
               <img
                 src={item.img}
                 className="flex w-[70%] h-20 ml-7 mt-7 transition hover:-translate-y-1 hover:scale-110  duration-600"
@@ -77,7 +77,7 @@ const Doreha = () => {
               <div
                 style={{
                   background: `linear-gradient(90deg , ${item.startC} 0% , ${item.endC} 130%)`,
-                  marginRight: 53,
+                  marginRight: 70,
                   marginBottom: 50,
                 }}
                 className="flex w-20 h-7 absolute bg-slate-500 rounded-md transition hover:-translate-y-1 hover:scale-110  duration-600"
@@ -90,11 +90,30 @@ const Doreha = () => {
                 >
                   {item.label}{" "}
                 </p>
+                <p
+                  className="child hidden"
+                  style={{
+                    fontFamily: "Bold",
+                    fontSize: 10,
+                    marginTop: 220,
+                    marginRight: 30,
+                  }}
+                >
+                  {" "}
+                  بیشتر بدانید
+                </p>
               </div>
             </div>
           );
         })}
       </div>
+      <style jsx>
+        {`
+          .parent:hover .child {
+            display: flex;
+          }
+        `}
+      </style>
     </div>
   );
 };

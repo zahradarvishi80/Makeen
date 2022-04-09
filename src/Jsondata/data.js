@@ -2,6 +2,7 @@ import farghTahsil from "../assets/img/Group 23.png";
 import saat from "../assets/img/Group 24.png";
 import ostad from "../assets/img/Group 25.png";
 import doreha from "../assets/img/Group 26.png";
+
 const data = [
   {
     number: 500,
@@ -9,6 +10,8 @@ const data = [
     Image: farghTahsil,
     startColor: "#8094A6",
     endColor: "#E6EAED",
+    color: "#335471",
+ 
   },
 
   {
@@ -17,6 +20,8 @@ const data = [
     Image: saat,
     startColor: "#FFD7C0",
     endColor: "#FFF2EA",
+    color: "#CC6123",
+ 
   },
   {
     number: 10,
@@ -24,6 +29,8 @@ const data = [
     Image: ostad,
     startColor: "#DAF2FB",
     endColor: "#ECF9FD",
+    color: "#3086A6",
+ 
   },
   {
     number: 6,
@@ -31,6 +38,8 @@ const data = [
     Image: doreha,
     startColor: "#CACBCB",
     endColor: "#EDEEEE",
+    color: "#4D5051",
+ 
   },
 ];
 
